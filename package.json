@@ -1,0 +1,28 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Node JS apps",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkhachane/nodejs.git"
+  },
+  "author": "Mayur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkhachane/nodejs/issues"
+  },
+  "homepage": "https://github.com/mkhachane/nodejs#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
