@@ -31,6 +31,7 @@ app.listen(8080, function () {
 })
  
  
+//-> Creates user roles into database
 function initial(){
 	Role.count( (err, count) => {
 		if(!err && count === 0) {
